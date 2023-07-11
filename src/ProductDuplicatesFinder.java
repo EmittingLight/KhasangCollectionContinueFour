@@ -120,6 +120,14 @@ public class ProductDuplicatesFinder {
         System.out.println("Количество дубликатов: " + duplicates2.size());
         System.out.println("Время выполнения (вторая реализация): " + (endTimestamp2 - startTimestamp2) + " мс");
     }
+
+    public List<Product> getList1() {
+        return list1;
+    }
+
+    public List<Product> getList2() {
+        return list2;
+    }
 }
 
 
